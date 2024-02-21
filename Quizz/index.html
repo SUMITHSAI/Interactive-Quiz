@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>Quiz</h1>
+    <p>Welcome to the interactive quiz</p>
+    <div id="quiz-container">
+        <h2>Interactive Quiz</h2>
+    
+        <div class="question">
+            <p>1. What is the capital of India?</p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="new-delhi"> New Delhi</label>
+                <label><input type="radio" name="q1" value="london"> London</label>
+                <label><input type="radio" name="q1" value="berlin"> Berlin</label>
+            </div>
+        </div>
+    
+        <div class="question">
+            <p>2. Which planet is known as the Red Planet?</p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="mars"> Mars</label>
+                <label><input type="radio" name="q2" value="venus"> Venus</label>
+                <label><input type="radio" name="q2" value="jupiter"> Jupiter</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>3. Which planet we live on?</p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="earth"> Earth</label>
+                <label><input type="radio" name="q3" value="venus"> Venus</label>
+                <label><input type="radio" name="q3" value="jupiter"> Jupiter</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>4. What is the national animal of India?</p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="tiger"> Tiger</label>
+                <label><input type="radio" name="q4" value="lion"> Lion</label>
+                <label><input type="radio" name="q4" value="cheetah"> Cheetah</label>
+            </div>
+        </div>
+
+        <div class="question">
+            <p>5. What is the main branch of SRMIST?</p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="ktr"> Kattankulathur</label>
+                <label><input type="radio" name="q5" value="rmp"> Ramapuram</label>
+                <label><input type="radio" name="q5" value="vdp"> Vadapalani</label>
+            </div>
+        </div>
+       
+        <button onclick="calculateScore()">Submit</button>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
